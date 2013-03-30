@@ -1,0 +1,2 @@
+module PatchLog
+end
