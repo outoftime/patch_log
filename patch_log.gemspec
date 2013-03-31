@@ -21,6 +21,8 @@ DESC
             ['README.md', 'HISTORY.md']
   s.test_files = Dir.glob(File.expand_path('../spec/examples/**/*.rb', __FILE__))
   s.add_dependency 'activerecord'
+  s.add_dependency 'composite_primary_keys'
   s.add_dependency 'activesupport', '~>3.0'
   s.add_development_dependency 'rspec'
+  s.add_development_dependency 'sqlite3'
 end
