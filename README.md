@@ -37,7 +37,7 @@ alter_table :pages do |t|
 end
 
 # You have to write SQL here because I don't think ActiveRecord migrations
-support composite primary keys
+# support composite primary keys
 execute "
 CREATE TABLE page_diffs (page_id int, version_id int, body_diff text,
 PRIMARY KEY (page_id, version_id))
