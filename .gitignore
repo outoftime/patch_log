@@ -1,0 +1,4 @@
+experiment/data/*
+experiment/database.sqlite3
+experiment/chart.png
+experiment/results.csv

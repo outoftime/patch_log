@@ -1,5 +1,5 @@
 require 'bundler'
-Bundler.require :default, :test
+Bundler.require :default, :development
 
 require 'active_record'
 
